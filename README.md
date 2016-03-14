@@ -7,7 +7,8 @@ Classifies strings of words to categories using Bayes rule.  I used it to classi
 Baye's rule states that P(x|y), the probability of x occuring given that y has occured, is equal to P(y|x)P(x)/P(y).
 
 Let s be the string which we would like to classify.  Let w1,w2,...,wn be the words in s.  Let c be an arbitrary category.
-P(c|s) = P(s|c) * P(c) / P(s)
+
+P(c|s) = P(s|c) * P(c) / P(s) 
        = [P(w1|c)P(w2|c)...P(wn|c)] * P(c) / [P(w1)P(w2)...P(wn)]
 
 ### Accuracy
