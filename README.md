@@ -10,6 +10,8 @@ Let s be the string which we would like to classify.  Let w1,w2,...,wn be the wo
 
 P(c|s) = P(s|c) * P(c) / P(s) 
        = [P(w1|c)P(w2|c)...P(wn|c)] * P(c) / [P(w1)P(w2)...P(wn)]
+       
+We calculate P(c|s) for all categories c, and classify s in whichever c maximizes P(c|s)
 
 ### Accuracy
 
